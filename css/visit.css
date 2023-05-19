@@ -1,0 +1,182 @@
+.heading {
+    color: #666;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    color: #8a34ff;
+    font-size: 32px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    margin-top: 3rem;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+section img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #8a34ff;
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Location */
+.location {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.location-details {
+    margin-top: 20px;
+}
+
+.location-info {
+    flex: 1;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.location-map {
+    flex: 1;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.location-info h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Admission */
+.admission {
+    margin-top: 20px;
+}
+
+/* Hours */
+.hours table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.hours th, 
+.hours td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.hours th {
+    background-color: #222;
+    color: #fff;
+}
+
+/* Accessibility */
+.accessibility {
+    background-color: #fff;
+}
+
+.access-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.access-info {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.access-info:hover {
+    transform: translateY(-5px);
+}
+
+.access-info h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Food and Drink section */
+.food-drink,
+.shop {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 40px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.image {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Map */
+#map {
+    height: 400px;
+    width: 100%;
+}
+@media screen and (min-width: 768px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}
