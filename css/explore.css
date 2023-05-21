@@ -1,24 +1,10 @@
 .section {
-    padding: 60px 0;
     text-align: center;
 }
 .first {
     margin-bottom: 20px;
 }
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-h2 {
-    font-size: 30px;
-    color: #8a34ff;
-    margin-bottom: 20px;
-}
-p {
-    color: #333;
-    line-height: 1.5;
-}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
