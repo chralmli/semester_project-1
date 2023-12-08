@@ -456,6 +456,13 @@ footer p {
      font-size: 14px;
 }
 
+@media (min-width: 270px) {
+    .hero-section {
+        position: absolute;
+        bottom: 15%;
+    }
+}
+
 @media (min-width: 768px) {
     /* general responsiveness */
     main {
@@ -495,4 +502,58 @@ footer p {
     .social-media ul {
         justify-content: flex-end;
     }
+}
+
+@media (min-width: 850px) {
+        /* hero */
+        .hero-section {
+            text-align: left;
+            right: 20px;
+            bottom: 50%;
+            position: absolute;
+        }
+        h1#hero-heading {
+            font-size: 2.5rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            word-wrap: break-word;
+            -webkit-line-clamp: 2;
+            max-width: 400px;
+            -webkit-box-orient: vertical;
+            text-align: left;
+        }
+        .hero-cta {
+            padding: 17px 45px;
+            border-radius: 30px;
+        }
+        .btn {
+            max-width: none;
+        }
+}
+
+@media (min-width: 1700px) {
+        /* hero */
+        .hero-section {
+            text-align: right;
+            right: 10%;
+            bottom: 30%;
+            position: absolute;
+        }
+        h1#hero-heading {
+            font-size: 2.5rem;
+            max-width: none;
+        }
+        .hero-cta {
+            padding: 17px 45px;
+            border-radius: 30px;
+        }
+        .btn {
+            max-width: none;
+        }
+
+        @media (min-width: 2200px) {
+            h1#hero-heading {
+                font-size: 3.2rem;
+            }
+        }
 }
